@@ -1,0 +1,151 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #00ffff;
+}
+.container{
+	margin: 0;
+	padding: 0;
+	background-color: #0080ff;
+}
+#head_wrap{
+	width: 100%;
+	height: 90px;
+	margin: 0 auto;
+	border-bottom: 5px solid brown;
+	padding: 20px ; 
+	background: #0080ff;
+}
+
+#header{
+
+	margin: 0 auto;
+
+	width: 1000px;
+	height: 100px;
+
+}
+#form1{
+
+	float: right;
+	line-height: 100px;
+	padding: 10px;
+	margin-left: 60px;
+
+}
+#form1 input{
+
+	width: 150px;
+	height: 20px;
+	padding: 10px;
+	border: 1px solid block;
+	border-radius: 5px;
+
+}
+#form1 button{
+
+	width: 100px;
+	padding: 10px;
+	border: 1px solid block;
+	border-radius: 5px;
+
+}
+#form1 button:hover{
+
+	background-color: green;
+	color: white;
+}
+#content{
+
+	width:1000px;
+	
+	margin: 0 auto;
+}
+#form2{
+
+	float:right;
+	margin-top: 20px;
+
+}
+#form2 input{
+
+	width: 250px;
+	height: 20px;
+	padding: 10px;
+	border: 1px solid block;
+	border-radius: 5px;
+
+}
+#form2 select{
+
+	width: 275px;
+	padding: 10px;
+	border: 1px solid block;
+	border-radius: 5px;
+
+}
+#form2 button{
+
+	width: 275px;
+	padding: 10px;
+	margin-right: -9cm;
+	border: 1px solid block;
+	border-radius: 5px;
+}
+#form2 button:hover{
+
+	background-color: green;
+	color: white;
+}
+
+
+#form2 h2{
+
+	padding: 5px;
+	font-family: Comic Sans Ms;
+}
+
+#footer{
+
+	width: 100%;
+	height: -50px;
+	padding: 40px;
+	background: red;
+	margin: 0 auto;
+	border-top: 5px solid brown;
+	clear: both;
+}
+#footer h2{
+
+	text-align: center; 
+	padding-top:3px;
+	color: white;
+
+
+}

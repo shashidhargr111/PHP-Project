@@ -1,0 +1,474 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #00ffff;
+}
+.container{
+	margin: 0;
+	padding: 0;
+	background-color: #0080ff;
+}
+
+#head_wrap{
+	width: 100%;
+    height: 75px;
+    margin: 0 auto;
+    border-bottom: 5px solid brown;
+    padding: 10px;
+    background: #0080ff;
+}
+
+#header{
+
+	margin: 0 auto; 
+	width: 1000px;
+	height: 35px;
+
+}
+
+#content_timeline{
+
+	float: right;
+	width: 700px;
+	padding: 10px;
+
+}
+
+.ff input{
+
+	margin-bottom: 5px;
+}
+
+.ff select{
+
+	margin-bottom: 5px;
+}
+
+ 
+#f input{
+
+	padding: 8px;
+	border:1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+
+}
+#f textarea{
+
+	padding: 9px;
+	border:1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+
+}
+#f select{
+
+	padding: 8px;
+	border:1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+
+}
+
+
+#f select:hover{
+
+	background-color: #FFF8DC;
+}
+
+#f input:hover{
+
+	background-color: #FFF8DC;
+}
+#f textarea:hover{
+
+	background-color: #FFF8DC;
+} 
+#f h2{
+
+	color: gray;
+	font-family:  Comic Sans Ms;
+}
+
+#pagination{
+
+	margin-top:20px;
+}
+
+#pagination a {
+
+	color:blue;
+	text-decoration:none;
+	font-size: 18px;
+	margin:5px;
+
+}
+
+#pagination a:hover{
+
+	color:brown;
+	font-weight: bold;
+}
+#posts{
+
+	width:600px;
+	background: #0080FF;
+	padding: 10px;
+	line-height: 20px;
+	border: 1px solid black;
+	border-radius: 8px;
+	text-align: justify-all; 
+
+}
+
+#postsuserimg{
+
+	float: left;
+	padding-top: 5px;
+	padding-right: 10px;
+}
+
+#postsimg{
+	
+	float: middle;
+	border-radius: 40px;
+}
+
+
+#posts h3{
+
+	 color:brown;
+
+}
+#posts button{
+
+	padding: 3px;
+
+}
+
+#posts button:hover{
+
+	background: black;
+	color: white;
+}
+#reply textarea {
+
+	padding: 9px;
+	border:1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+	background: #F5F5DC;
+}
+
+#reply input {
+
+	padding: 9px;
+	border:1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+
+}
+
+#reply input:hover {
+
+	padding: 9px;
+	border:1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+	background: green;
+}
+
+#pagination a:hover{
+
+	color:brown;
+	font-weight: bold;
+
+}
+
+#user_timeline{
+
+	background: #0080ff;
+	width: 250px;
+	float: left; 
+	height: 600px;
+	border-right: 1px solid black;
+
+}
+#user_details{
+
+	padding: 10px;
+	margin-bottom: 5px;
+
+}
+#user_profile{
+
+	padding: 10px;
+	margin-bottom: 5px;
+	border:2px solid black;  
+	border-radius: 20px; 
+	background: #808080;
+
+}
+#user_profile img{
+	border:2px solid black;  
+	border-radius: 20px; 
+	float: right;
+	width: 5cm;
+	height: 5cm;
+	
+ }
+ #msg {
+
+ 	padding: 10px;
+ 	line-height: 20px;
+ 	border-radius: 10px;
+ 	background: pink;
+ 	margin:0 auto;
+ 	
+
+
+ }
+ #msg th {
+
+ 	border:3px solid ;
+ 	background: white;
+
+ }
+#msg table{
+
+	padding: 10px;
+	width: 
+
+
+}
+
+#msg td{
+
+	padding: 10px;
+
+
+}
+
+
+#msg a{
+
+	color: blue;
+	text-decoration: none;
+	font-size: 18px;
+}
+#msg a:hover{
+	color: brown;
+	font-weight: bolder;
+	text-decoration: underline;
+
+}
+#user_details img{
+	border:2px solid black;  
+	border-radius: 20px; 
+	
+ }
+ #user_details p{
+
+ 	margin-bottom: 5px;
+ 	padding: 5px;
+
+ }
+
+#user_details a{
+
+	color:brown;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+
+#user_details a:hover {
+
+	color:black;
+	font-size: 20px;
+	text-decoration: underline;
+	font-weight: bolder;
+	
+}
+
+#user_mention {
+
+	background: gray;
+	border:2px solid black;  
+	border-radius: 20px; 
+	width:200px;
+	margin:0 auto;
+	padding: 5px;
+
+
+}
+
+#menu{ 
+
+	line-height: 35px;
+	padding: 0;
+	margin: 25px 0 0 30px;
+	float: left;
+	
+}
+#menu li{
+
+	display: inline;
+	list-style: none;
+
+}
+
+#menu a {
+
+	margin: 5px;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+#menu a:hover{
+
+	color: brown;
+	font-weight: bolder;
+	text-decoration: underline;
+
+}
+
+#menu strong {
+
+	font-size: 20px;
+	text-decoration: underline;
+	color:brown;
+}
+#menu img{
+	margin-right: 60px;
+    margin-top: -10px;
+}
+
+#form1{
+
+	float: right;
+	line-height: 35px;
+	padding: 3px;
+	margin-top: 25px;
+
+ 
+}
+
+.content{
+
+	width:1000px;
+	margin: 0 auto;
+}
+
+#user_timeline{
+
+	background: #0080FF;
+	width: 250px;
+	float: left;
+	height: 619px;
+	border-right:1px solid black;
+
+}  
+
+#comments {
+
+	background: #6A5ACD;
+	padding:10px;
+	width:613px;
+	border-bottom: 5px red;
+	border: 1px solid black;
+	border-radius: 8px;
+
+}
+
+#comments span{
+
+	color:white;
+
+}
+
+#comments h3{
+
+	color: gold;
+
+}
+
+#comments p{
+
+	line-height: 20px;
+	font-size: 16px;
+	padding:5px;
+	text-align: justify-all;
+}
+
+#topiclist li{ 
+
+	display: inline;
+	list-style: ;
+	float: ;
+
+}
+
+#topiclist a {
+
+	margin: 5px;
+	padding: 5px;
+	text-decoration: none;
+	color: rgb(0,0,128);
+	font-size: 20px;
+	font-weight: bold;
+
+}
+#topiclist a:hover{
+
+	color: brown;
+	font-weight: bolder;
+	text-decoration: underline;
+
+} 
+
+
+#footer{
+
+	width: 100%;
+	height: -50px;
+	padding: 40px;
+	background: red;
+	margin: 0 auto;
+	border-top: 5px solid brown;
+	clear: both;
+}
+
+#footer h2{
+
+	text-align: center; 
+	padding-top:3px;
+	color: white;
+
+
+}
